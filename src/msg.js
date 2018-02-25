@@ -31,6 +31,8 @@ var Msg = function() {
     self._define_field('35', 'MsgType');
     self._define_field('34', 'MsgSeqNum');
     self._define_field('52', 'SendingTime');
+    self._define_field('554', 'Passphrase');
+    self._define_field('8013', 'CancelOrdersOnDisconnect');
 };
 
 // constants
